@@ -23,3 +23,24 @@ body {
 .list_image{
     max-width: 100%;
 }
+
+.buton_contain{
+    display:flex;
+    justify-content: center;
+}
+
+.buton{
+    background-color: orange;
+    width: 10%;
+    font-size: 20px;
+    display: inline-block;
+    text-align:center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    background-color:cadetblue;
+    transition: .5s ease all;
+}
