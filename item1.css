@@ -1,0 +1,60 @@
+@font-face {
+    font-family: acher-font;
+    src: url(font/Archer-Book-Pro.otf);
+}
+
+.title{
+    font-family: tahoma;
+}
+
+.title2{
+    font-family:acher-font;
+    color:red;
+}
+
+.title + .para {
+    font-family: acher-font, tahoma;
+    color:brown
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li{
+    color:purple;
+    font-family: tahoma;
+    text-decoration: none;
+}
+
+ul > li:last-child{
+    font-size:3rem;
+}
+
+ul > li:first-child{
+    font-size:3rem;
+}
+
+ul > p:nth-of-type(2){
+    font-size:2rem;
+    font-family:acher-font;
+}
+
+ul li:nth-of-type(3){
+    font-size:2rem;
+    color:silver;
+}
+
+.title2 ~ .para {
+    font-family: acher-font, tahoma;
+    color: orange
+}
+
+p[style*="bc"]{
+    color:saddlebrown;
+}
+
+input[type^="te"]{
+    font-family: acher-font;
+    color:seagreen;
+}

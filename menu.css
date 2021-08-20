@@ -1,0 +1,12 @@
+@font-face {
+    font-family: acher-font;
+    src: url(font/Archer-Book-Pro.otf);
+}
+
+.title {
+    display:flex;
+    align-items: center;
+    justify-content:center;
+    font-family: acher-font;
+    text-align: center;
+}
