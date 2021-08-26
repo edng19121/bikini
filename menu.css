@@ -30,16 +30,58 @@ img{
     margin-left: auto;
     margin-right: auto;
     height:500px;
+    width: auto;
 }
 
 .list {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    justify-items:center;
-    margin-top: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .list img {
+    display: block;
     cursor: pointer;
     height:300px;
+    width: auto;
+    margin: 10px;
 }
+
+.buton_contain{
+    display:flex;
+    justify-content: center;
+}
+
+.buton{
+    background-color: orange;
+    width: 10%;
+    font-size: 1rem;
+    font-family: acher-font;
+    display: inline-block;
+    text-align:center;
+    padding: 10px;
+    text-decoration: none;
+    color: black;
+    border-radius: 10px;
+}
+
+@media screen and (max-width: 1173px){
+    .feature img{
+        width:50%;
+        height:auto;
+    }
+
+    .list{
+        display: flex;
+        justify-content: center;
+    }
+    .list img{
+        display:block;
+        height:50px;
+        width:auto;
+    }
+
+    .buton {
+        width:100px;
+    }
+}
+
