@@ -10,3 +10,36 @@
     font-family: acher-font;
     text-align: center;
 }
+
+* {
+    box-sizing: border-box;
+}
+
+img{
+    display: block;
+    max-width:100%;
+}
+
+.layout{
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+.feature img{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    height:500px;
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-items:center;
+    margin-top: 20px;
+}
+
+.list img {
+    cursor: pointer;
+    height:300px;
+}

@@ -1,0 +1,16 @@
+@font-face {
+    font-family: acher-font;
+    src: url(font/Archer-Book-Pro.otf);
+}
+
+h1{
+    font-family: acher-font;
+}
+
+h2{
+    font-family: acher-font;
+}
+
+p{
+    font-family: acher-font;
+}

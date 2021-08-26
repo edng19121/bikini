@@ -1,0 +1,30 @@
+@font-face {
+    font-family: acher-font;
+    src: url(font/Archer-Book-Pro.otf);
+}
+
+
+.boxed-contain{
+    display: flex;
+}
+.boxed{
+    background-color: orangered;
+    font-family: acher-font;
+    padding: 25px;
+    width: 30%;
+    margin: 30px;
+}
+
+.wid100{
+    background-color:powderblue;
+    padding:10px;
+    width:100%;
+    margin-left:50px;
+}
+
+.widauto{
+    background-color:powderblue;
+    padding:10px;
+    width:auto;
+    margin-left:50px;
+}

@@ -1,0 +1,89 @@
+@font-face {
+    font-family: acher-font;
+    src: url(font/Archer-Book-Pro.otf);
+}
+
+
+.position {
+
+}
+
+.wrapper {
+    width: 100%;
+    height: 400px;
+    background-color: cyan;
+    display: flex;
+    margin: 10px 0px;
+}
+
+.boxed{
+    display: inline-block;
+    width: 30%;
+    height: 100px;
+    background-color: orange;
+    position: relative;
+    top: 150px;
+    left:50%;
+    transform: translateX(-50%);
+}
+
+
+.wrapper2 {
+    width: 100%;
+    height: 400px;
+    background-color: cyan;
+    padding: 25px;
+    position: relative;
+}
+
+.boxed2 {
+    width: 30%;
+    height: 100px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    transform: translateX(-50%);
+}
+
+.box21 {
+    z-index: 2;
+}
+
+.drop-down{
+    width: 30%;
+    font-size: 18px;
+    font-family: acher-font;
+    margin: 10px;
+    position: relative;
+}
+
+.dropdown-select{
+    width: 100%;
+    background-color: orangered;
+    border: 1px solid;
+    cursor: pointer;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    padding: 5px;
+}
+
+.dropdown-list{
+    width:100%;
+    position:absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.25s ease all;
+}
+
+.drop-down:hover .dropdown-list{
+    opacity:1;
+    visibility: visible;
+}
+
+.dropdown-item{
+    background-color:white;
+    border-bottom: 1px solid grey;
+    padding: 5px 10px;
+}
+
